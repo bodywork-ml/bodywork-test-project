@@ -6,7 +6,7 @@ from datetime import datetime
 
 def main() -> None:
     now = datetime.now()
-    print(f'now={now}'')
+    print(f'now={now}')
 
 
 if __name__ == '__main__':
