@@ -6,7 +6,7 @@ from flask import Flask, make_response, jsonify
 app = Flask(__name__)
 
 
-@app.route('/v1/predict', methods=['GET', 'POST'])
+@app.route('/v2/predict', methods=['GET', 'POST'])
 def predict():
     return make_response(jsonify({'y': 'hello_world'}))
 
