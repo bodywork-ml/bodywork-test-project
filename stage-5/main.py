@@ -7,7 +7,7 @@ import requests
 
 
 def main() -> None:
-    response = requests.get('http://bodywork-demo-project--stage-4:5000/v2/predict')
+    response = requests.get('http://bodywork-test-project--stage-4:5000/v2/predict')
     if response.ok:
         print(response.text)
         sys.exit(0)
