@@ -6,6 +6,7 @@ project:
 stages:
   stage_1:
     executable_module_path: stage_one/main.py
+    args: ["Hello", "World"]
     cpu_request: 0.25
     memory_request_mb: 100
     batch:
