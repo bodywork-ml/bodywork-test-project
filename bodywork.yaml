@@ -39,7 +39,7 @@ stages:
       max_startup_time_seconds: 60
       replicas: 2
       port: 5000
-      ingress: true
+      ingress: false
     secrets:
       USERNAME: bodywork-test-project-credentials
       PASSWORD: bodywork-test-project-credentials

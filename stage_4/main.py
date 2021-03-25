@@ -1,5 +1,5 @@
 """
-This module defines what will happen in stage-3.
+This module defines what will happen in stage_5.
 """
 import os
 import sys

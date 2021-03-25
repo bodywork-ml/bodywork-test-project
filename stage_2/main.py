@@ -1,5 +1,5 @@
 """
-This module defines what will happen in stage-1.
+This module defines what will happen in stage_2.
 """
 import requests
 
