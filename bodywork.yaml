@@ -4,7 +4,7 @@ project:
   docker_image: bodyworkml/bodywork-core:latest
   DAG: stage_1 >> stage_2 >> stage_3, stage_4 >> stage_5
   usage_stats: false
-  secrets_group: test
+  secrets_group: testsecrets
 stages:
   stage_1:
     executable_module_path: stage_one/main.py
