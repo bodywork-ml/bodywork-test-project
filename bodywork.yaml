@@ -31,7 +31,7 @@ stages:
       port: 5000
       ingress: true
     requirements:
-      - flask==1.1.2
+      - flask==1.1.4
   stage_4:
     executable_module_path: stage_four/main.py
     cpu_request: 0.1
@@ -45,7 +45,7 @@ stages:
       USERNAME: bodywork-test-project-credentials
       PASSWORD: bodywork-test-project-credentials
     requirements:
-      - flask==1.1.2
+      - flask==1.1.4
   stage_5:
     executable_module_path: stage_five/main.py
     cpu_request: 0.1
