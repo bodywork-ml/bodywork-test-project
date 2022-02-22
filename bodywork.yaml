@@ -34,6 +34,7 @@ stages:
       ingress: true
     requirements:
       - flask==1.1.4
+      - markupsafe==2.0.1
   stage_4:
     executable_module_path: stage_four/main.py
     cpu_request: 0.1
@@ -48,6 +49,7 @@ stages:
       PASSWORD: bodywork-test-project-credentials
     requirements:
       - flask==1.1.4
+      - markupsafe==2.0.1
   stage_5:
     executable_module_path: stage_five/main.py
     cpu_request: 0.1
