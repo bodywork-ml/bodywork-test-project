@@ -28,19 +28,18 @@ stages:
     cpu_request: 0.1
     memory_request_mb: 100
     service:
-      max_startup_time_seconds: 30
+      max_startup_time_seconds: 60
       replicas: 2
       port: 5000
       ingress: true
     requirements:
-      - flask==1.1.4
-      - markupsafe==2.0.1
+      - flask==2.1.2
   stage_4:
     executable_module_path: stage_four/main.py
     cpu_request: 0.1
     memory_request_mb: 100
     service:
-      max_startup_time_seconds: 30
+      max_startup_time_seconds: 60
       replicas: 1
       port: 5000
       ingress: false
@@ -48,8 +47,7 @@ stages:
       USERNAME: bodywork-test-project-credentials
       PASSWORD: bodywork-test-project-credentials
     requirements:
-      - flask==1.1.4
-      - markupsafe==2.0.1
+      - flask==2.1.2
   stage_5:
     executable_module_path: stage_five/main.py
     cpu_request: 0.1
